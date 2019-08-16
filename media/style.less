@@ -1,0 +1,87 @@
+@bg: #49f;
+@link: darken(@bg, 10%);
+@text: #000;
+@text2: #d04d1f;
+
+@font-face {
+    font-family: Goudy;
+    src: url('goudy_bookletter_1911-webfont.ttf');
+}
+@font-face {
+    font-family: Chunk;
+    src: url('Chunk.ttf');
+}
+* {
+}
+body {
+    background-color: @bg;
+    color: @text;
+    font-size: 200%;
+    padding: 1em 0;
+    font-family: Goudy, Times, serif;
+    line-height: 90%;
+}
+a, a:visited, a:active, a:link {
+    color: @link;
+    text-decoration: none;
+    display: block;
+}
+a:hover, .categories a:hover {
+    color: @text2*0.7;
+    text-shadow: 0 1px 0 lighten(@bg, 10%);
+}
+.categories {
+    font-family: Chunk, Times, serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Chunk, Times, serif;
+    text-shadow: 0 1px 0 lighten(@bg, 10%);
+}
+.header h1, .header h2 {
+    margin-bottom: 0;
+    text-align: center;
+}
+.header h1 {
+    /*margin-left: -20px;*/
+}
+.header h2 {
+    margin-left: 40px;
+}
+.header {
+    margin-bottom: 1em;
+}
+.header h1 a {
+    color: @text;
+}
+h6 {
+    margin-bottom: 1ex;
+}
+hr {
+    border: none;
+    border-bottom: solid 1px #000;
+}
+.videos p, .categories p {
+    margin-bottom: 0.5em;
+    span {
+        font-size: 50%;
+        font-weigth: normal;
+        display: block;
+        margin-top: -0.5ex;
+    }
+}
+.videos p {
+}
+.categories p {
+    margin-bottom: 0;
+}
+.categories {
+}
+.categories div {
+    background-color: @link;
+    padding: 1ex;
+    position: fixed;
+    width: 270px;
+}
+.categories a {
+    color: @bg;
+}
