@@ -12,52 +12,21 @@
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<link rel="stylesheet" href="lib/reveal.js/css/reveal.min.css">
+		<link rel="stylesheet" href="lib/reveal.js/css/reveal.css">
 		<link rel="stylesheet" href="lib/reveal.js/css/theme/night.css" id="theme">
-
-		<link rel="stylesheet" href="css/reid.css" id="theme">
-
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-
-		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
-		<script>
-			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
-		</script>
-
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-
-		<!--script type="text/javascript" src="//cdn.sublimevideo.net/js/2jcc5gex-beta.js"></script-->
-		<script type="text/javascript" src="//cdn.sublimevideo.net/js/2jcc5gex.js"></script>
-
+		<link rel="stylesheet" href="css/reid.css">
 		<link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
-		<!--[if IE 7]>
-		<link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
-		<![endif]-->
-
-		<script src="js/prefixfree.min.js"></script>
-
-		<style>
-			.video-js {
-				font-size: 10px !important;
-			}
-			.vjs-poster {
-				margin-top: 0px !important;
-				margin-bottom: 0px !important;
-			}
-            .home p {
-                font-size: 18px !important;
-            }
-            small {
-                font-size: 14px !important;
-            }
-            img + br + small {
-                position: relative;
-                top: -15px;
-            }
-		</style>
+    <style>
+      h1 {
+        font-size: 120%;
+      }
+      .home p {
+        font-size: 60%;
+      }
+      small {
+        font-size: 80%;
+      }
+    </style>
 
 	</head>
 
@@ -70,75 +39,96 @@
 
 				<section class="home">
 					<h1>Reid Ransom</h1>
-          <img src="/media/img/cindy-and-reid.jpg" alt="Cindy and Reid" height="360"
-               style="height:360px;"><br />
-          <small>My wife Cindy and I wearing seatbelts.</small>
-					<p>Hi, my name is Reid and I live in New York.
-          <p>I am Lead Software Engineer at <a href="http://defyventures.org/">Defy Ventures</a>.
-          <p>Some of my open-source work is available on
-            <a href="//github.com/reidransom">GitHub</a> and a few products I've
-            developed can be found at <a href="//electricpond.com">Electric Pond</a>.
-          <p>I was a promo and commercial video editor for many years.  Occasionally I still edit
-            stuff.  Check out my <a href="#/1">Reel &#12299;</a>
-          <p>I have a <a href="http://blog.reidransom.com/">blog</a> where I write about mostly
-            computers or editing.
+          <div style='width:400px; float:left;'>
+            <img src="/media/img/cindy-and-reid.jpg" alt="Cindy and Reid"><br />
+            <small>My wife Cindy and I wearing seatbelts.</small>
+          </div>
+          <div style='text-align:left;'>
+					  <p>Hi, my name is Reid and I live in New York.
+            <p>I am Lead Software Engineer at <a href="http://defyventures.org/">Defy Ventures</a>.
+            <p>Some of my open-source work is available on
+              <a href="//github.com/reidransom">GitHub</a> and a few products I've
+              developed can be found at <a href="//electricpond.com">Electric Pond</a>.
+            <p>I was a promo and commercial video editor for many years.  Occasionally I still edit
+              stuff.  Check out my <a href="#/1">Reel &#12299;</a>
+            <p>I have a <a href="http://blog.reidransom.com/">blog</a> where I write about mostly
+              computers or editing.
+          </div>
 				</section>
 
-				<section>
-					<h2>The CW + Bing</h2>
-					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/thecw-bing-kat-graham.jpg"><source src="//s3.amazonaws.com/rr_media/reel/thecw-bing-kat-graham.mp4" data-quality="hd" /></video>
-					<p><small>This is a Bing integration with "The Vampire Diaries", following Kat Graham's day as she prepares for a concert.</small>
-				</section>
+        <section>
+  <h2 id='h-katgraham'>The CW & Bing: “Put your name on it”</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/thecw-bing-kat-graham.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/thecw-bing-kat-graham.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>This is a Bing integration with “The Vampire Diaries”, following Kat Graham’s day as she prepares for a concert.</small>
+</section>
+<section>
+  <h2 id='h-ncis'>USA - NCIS: LA “It’s a letter”</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/usa-ncisla.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/usa-ncisla.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>This is a spot promoting NCIS: Los Angeles syndication on USA.</small>
+</section>
+<section>
+  <h2 id='h-cartoonnetwork'>Cartoon Network Sizzle</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/cn-sizzle.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/cn-sizzle.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>This is a sizzle for Cartoon Network featuring <em>Adventure Time</em> and <em>Regular Show</em>.</small>
+</section>
+<section>
+  <h2 id='h-fillybrown'>Sundance Channel + L'Oréal - My Premiere “Filly Brown”</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/my-premiere-filly-brown.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/my-premiere-filly-brown.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>This 90 second spot follows Gina Rodriguez to the premiere of her movie “Filly Brown” at the Sundance Film Festival.  I met Edward James Olmos when he past by my edit bay while I was cutting this spot during the festival at Sundance Channel HQ.</small>
+</section>
+<section>
+  <h2 id='h-farewell24'>FOX “Farewell 24”</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/fox-farewell24.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/fox-farewell24.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>No one will ever “Jack” the english language the same way again.</small>
+</section>
+<section>
+  <h2 id='h-rent'>FXM - Rent</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/rent.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/Rent30.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>I got to produce, write, <em>and</em> edit this bad boy.  Never got the final graphics back from FXM though.  Womp womp.</small>
+</section>
+<section>
+  <h2 id='h-laura'>ABC - GH: “Laura Returns”</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/laura-returns.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/gh-laura-returns.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small></small>
+</section>
 
-				<section>
-					<h2>USA - NCIS: LA "It's a letter"</h2>
-					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/usa-ncisla.jpg"><source src="//s3.amazonaws.com/rr_media/reel/usa-ncisla.mp4" data-quality="hd" /></video>
-					<p><small>This is a spot promoting NCIS: Los Angeles syndication on USA.</small>
-				</section>
 
-				<section>
-					<h2>Cartoon Network Sizzle</h2>
-					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/cn-sizzle.jpg"><source src="//s3.amazonaws.com/rr_media/reel/cn-sizzle.mp4" data-quality="hd" /></video>
-					<p><small>This is a sizzle for Cartoon Network featuring <em>Adventure Time</em> and <em>Regular Show</em>.</small>
-				</section>
-
-				<section>
-					<h2>Sundance Channel + Acura</h2>
-					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/sc-acura-afternoondelight.jpg"><source src="//s3.amazonaws.com/rr_media/reel/sc-acura-afternoondelight.mp4" data-quality="hd" /></video>
-					<p><small>This is an interview I cut while on location at the 2013 Sundance Film Festival with the director and cast of <em>Afternoon Delight</em>, <a href="//filmguide.sundance.org/film/13033/afternoon_delight">winner of the 2013 Sundance Film Festival's Directing Award: U.S. Dramatic.</a></small>
-				</section>
-
-				<section>
-					<h2>iNDEMAND - Pac-12 Fandemonial Sizzle</h2>
-					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/indemand-pac12-fandemonial.jpg"><source src="//s3.amazonaws.com/rr_media/reel/indemand-pac12-fandemonial.mp4" data-quality="hd" /></video>
-					<p><small>This is a sizzle for the Pac-12 Network.</a></small>
-				</section>
-
-				<section>
-					<h2>NBC + Walgreens</h2>
-					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/nbc-walgreens.jpg"><source src="//s3.amazonaws.com/rr_media/reel/nbc-walgreens.mp4" data-quality="hd" /></video>
-					<p><small>This is a Walgreens integration with <em>Celebrity Apprentice</em> featuring Arsenio Hall, Alison Sweeney and Magic Johnson.</small>
-				</section>
-
-				<section>
-					<h2>The CW + Windows 8</h2>
-					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/thecw-windows8-colin-donnell.jpg"><source src="//s3.amazonaws.com/rr_media/reel/thecw-windows8-colin-donnell.mp4" data-quality="hd" /></video>
-					<p><small>This is a Windows 8 integration with "Arrow", featuring Colin Donnel.</small>
-				</section>
-
-				<section>
-					<h2>FOX "Farewell 24"</h2>
-					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/fox-farewell24.jpg"><source src="//s3.amazonaws.com/rr_media/reel/fox-farewell24.mp4" data-quality="hd" /></video>
-					<p><small>"Farewell 24"</small>
-				</section>
-
-				<section>
-					<h2>DIRECTV - NASCAR HotPass</h2>
-					<p><video class="sublime" width="866" height="487" data-autoresize="fit" preload="none" poster="media/img/directv-hotpass.jpg"><source src="//s3.amazonaws.com/rr_media/reel/directv-hotpass.mp4" data-quality="hd" /></video>
-					<p><small>This is a sizzle for DIRECTV's NASCAR HotPass service.</small>
-				</section>
-
-			</div>
+      </div>
 
 		</div>
 
@@ -150,10 +140,15 @@
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="lib/reveal.js/js/reveal.js"></script>
-
+		<script src="lib/fittext/fittext.js"></script>
 		<script>
 
-			// Full list of configuration options available here:
+      function initFittext () {
+        fitText(document.getElementById('h-katgraham'), 2.0)
+        fitText(document.getElementById('h-fillybrown'), 3)
+      }
+
+      // Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				controls: true,
@@ -173,7 +168,8 @@
 					{ src: 'lib/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: 'lib/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
-			});
+			})
+      Reveal.addEventListener('ready', initFittext)
 
 		</script>
 
