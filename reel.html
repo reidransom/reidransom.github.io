@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Reid Ransom</title>
+
+		<meta name="description" content="My Personal Website.">
+		<meta name="author" content="Reid Ransom">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="lib/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="lib/reveal.js/css/theme/night.css" id="theme">
+		<link rel="stylesheet" href="css/reid.css">
+		<link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
+    <style>
+      h1 {
+        font-size: 120%;
+      }
+      .home p {
+        font-size: 60%;
+      }
+      small {
+        font-size: 80%;
+      }
+    </style>
+
+	</head>
+
+	<body>
+
+		<!-- fullscreen / autoplay buttons -->
+		<div class="reveal">
+
+			<div class="slides">
+
+        <section>
+  <h2 id='h-katgraham'>The CW & Bing: “Put your name on it”</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/thecw-bing-kat-graham.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/thecw-bing-kat-graham.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>This is a Bing integration with “The Vampire Diaries”, following Kat Graham’s day as she prepares for a concert.</small>
+</section>
+<section>
+  <h2 id='h-ncis'>USA - NCIS: LA “It’s a letter”</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/usa-ncisla.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/usa-ncisla.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>This is a spot promoting NCIS: Los Angeles syndication on USA.</small>
+</section>
+<section>
+  <h2 id='h-cartoonnetwork'>Cartoon Network Sizzle</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/cn-sizzle.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/cn-sizzle.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>This is a sizzle for Cartoon Network featuring <em>Adventure Time</em> and <em>Regular Show</em>.</small>
+</section>
+<section>
+  <h2 id='h-fillybrown'>Sundance Channel + L'Oréal - My Premiere “Filly Brown”</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/my-premiere-filly-brown.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/my-premiere-filly-brown.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>This 90 second spot follows Gina Rodriguez to the premiere of her movie “Filly Brown” at the Sundance Film Festival.  I met Edward James Olmos when he past by my edit bay while I was cutting this spot during the festival at Sundance Channel HQ.</small>
+</section>
+<section>
+  <h2 id='h-farewell24'>FOX “Farewell 24”</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/fox-farewell24.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/fox-farewell24.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>No one will ever “Jack” the english language the same way again.</small>
+</section>
+<section>
+  <h2 id='h-rent'>FXM - Rent</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/rent.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/Rent30.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small>I got to produce, write, <em>and</em> edit this bad boy.  Never got the final graphics back from FXM though.  Womp womp.</small>
+</section>
+<section>
+  <h2 id='h-laura'>ABC - GH: “Laura Returns”</h2>
+    <p>
+      <video width='866' height='487' preload='false' controls
+             poster='media/img/laura-returns.jpg'>
+        <source src='//s3.amazonaws.com/rr_media/reel/gh-laura-returns.mp4' type='video/mp4'>
+      </video>
+    <p>
+      <small></small>
+</section>
+
+
+      </div>
+
+		</div>
+
+		<div class="header">
+			<a href="/" title="Home"><i class="icon-home icon-4x"></i></a>&nbsp;
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="lib/reveal.js/js/reveal.js"></script>
+		<script src="lib/fittext/fittext.js"></script>
+		<script>
+
+      function initFittext () {
+        fitText(document.getElementById('h-katgraham'), 2.0)
+        fitText(document.getElementById('h-fillybrown'), 3)
+      }
+
+      // Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: false,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'lib/reveal.js/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'lib/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			})
+      Reveal.addEventListener('ready', initFittext)
+
+		</script>
+
+	</body>
+</html>
