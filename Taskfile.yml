@@ -1,0 +1,7 @@
+version: '3'
+
+tasks:
+  serve:
+    desc: Run local web server
+    cmds:
+      - python -m http.server
