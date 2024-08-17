@@ -22,7 +22,7 @@ a:not(.image), .reveal a:not(.image) {
 
 .home {
   width: 95%;
-  max-width: 50rem;
+  max-width: 40rem;
   margin: 5rem auto;
   align-items: center;
 }
